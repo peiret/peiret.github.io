@@ -147,10 +147,8 @@ li {
     color: #999;
 }
 
-.footer:before {
-    content: "";
-    clear: both;
-    display: table;
+.footer:after {
+    content: "2019 Albert Peiret";
 }
 
 
