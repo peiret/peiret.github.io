@@ -46,7 +46,7 @@ li {
 
 .white {
     display: block;
-    color: #fff;
+    color: #aaa;
     text-align: center;
     height: 40px;
     padding: 0px 15px;
@@ -92,7 +92,7 @@ li {
 }
 
 .white:hover {
-    color: #aaa;
+    color: #fff;
 }
 
 .black:hover {
