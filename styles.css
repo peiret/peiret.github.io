@@ -2,13 +2,27 @@
     box-sizing: border-box;
 }
 
+h1 {
+    margin-top:     20px;
+    margin-bottom:  5px;
+}
+
+h3 {
+    margin-top:     20px;
+    margin-bottom:  5px;
+}
+
 p {
-    line-height: 140%;
+    margin-top:     0px;
+    margin-bottom:  0px;
+    padding-top:    5px;
+    padding-bottom: 5px;
+    line-height:    140%;
 }
 
 a {
     text-decoration: none;
-    color: #0645AD
+    color: #0645AD;
 }
 
 body {
@@ -112,7 +126,6 @@ li {
 .main {
     padding: 5px 15px;
     background-color:#fff;
-    min-height:100px;
     width: auto;
 }
 
@@ -171,9 +184,13 @@ li {
 }
 
 /* Clear floats after the columns */
+.row {
+    margin-top:     10px;
+    margin-bottom:  30px;
+}
+
 .row:after {
     content: "";
-    height: 30px;
     clear: both;
     display: table;
 }
